@@ -1,0 +1,3 @@
+Make executable by running following command:
+
+chmod +x monitoring/prometheus-grafana-install.sh
