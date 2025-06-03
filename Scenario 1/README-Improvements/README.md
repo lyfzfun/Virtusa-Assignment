@@ -1,16 +1,13 @@
-With custom VPCs, you can:
+1. Custom VPCs:
+   - Distribute resources across multiple Availability Zones (AZs)
+   - Create multiple subnets per AZ (for zone-aware services)
+   - Use custom route tables for advanced networking
+   - Less CIDR block conflicts
 
-Distribute resources across multiple Availability Zones (AZs)
-
-Create multiple subnets per AZ (for zone-aware services)
-
-Use custom route tables for advanced networking
-
-
-1. HTTPS Support:
+2. HTTPS Support:
    - Add TLS certificates using AWS ACM and ALB HTTPS listener.
 
-2. CI/CD Pipeline:
+3. CI/CD Pipeline:
    - Use CodePipeline/CodeDeploy to automatically update content on S3 and EC2.
 
 4. Content Caching:
